@@ -1,0 +1,234 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "SKnob"
+Date "2020-05-20"
+Rev "V1.0"
+Comp "bozica.co"
+Comment1 "Ardi"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L STM32WLE5JCI6:STM32WLE5JCI6 U1
+U 1 1 5EC5E3A0
+P 6100 2350
+F 0 "U1" H 7400 2837 60  0000 C CNN
+F 1 "STM32WLE5JCI6" H 7400 2731 60  0000 C CNN
+F 2 "SKnob:STM32WLE5JCI6" H 7400 2690 60  0001 C CNN
+F 3 "" H 6100 2350 60  0000 C CNN
+	1    6100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32WLE5JCI6:STM32WLE5JCI6 U1
+U 2 1 5EC5F9D6
+P 11650 3600
+F 0 "U1" H 12950 3987 60  0000 C CNN
+F 1 "STM32WLE5JCI6" H 12950 3881 60  0000 C CNN
+F 2 "SKnob:STM32WLE5JCI6" H 12950 3940 60  0001 C CNN
+F 3 "" H 11650 3600 60  0000 C CNN
+	2    11650 3600
+	1    0    0    -1  
+$EndComp
+Text Label 9000 2750 2    50   ~ 0
+PA0
+Text Label 9000 2850 2    50   ~ 0
+PA1
+Text Label 9000 2950 2    50   ~ 0
+PA2
+Text Label 9000 3050 2    50   ~ 0
+PA3
+Text Label 9000 3150 2    50   ~ 0
+PA4
+Text Label 9000 3250 2    50   ~ 0
+PA5
+Text Label 9000 3350 2    50   ~ 0
+PA6
+Text Label 9000 3450 2    50   ~ 0
+PA7
+Text Label 9000 3550 2    50   ~ 0
+PA8
+Text Label 9000 3650 2    50   ~ 0
+PA9
+Text Label 9000 3750 2    50   ~ 0
+PA10
+Text Label 9000 3850 2    50   ~ 0
+PA11
+Text Label 9000 3950 2    50   ~ 0
+PA12
+Text Label 9000 4050 2    50   ~ 0
+PA13
+Text Label 9000 4150 2    50   ~ 0
+PA14
+Text Label 9000 4250 2    50   ~ 0
+PA15
+Wire Wire Line
+	9000 2750 8700 2750
+Wire Wire Line
+	9000 2850 8700 2850
+Wire Wire Line
+	9000 2950 8700 2950
+Wire Wire Line
+	9000 3050 8700 3050
+Wire Wire Line
+	9000 3150 8700 3150
+Wire Wire Line
+	9000 3250 8700 3250
+Wire Wire Line
+	9000 3350 8700 3350
+Wire Wire Line
+	9000 3450 8700 3450
+Wire Wire Line
+	9000 3550 8700 3550
+Wire Wire Line
+	9000 3650 8700 3650
+Wire Wire Line
+	9000 3750 8700 3750
+Wire Wire Line
+	9000 3850 8700 3850
+Wire Wire Line
+	9000 3950 8700 3950
+Wire Wire Line
+	9000 4050 8700 4050
+Wire Wire Line
+	9000 4150 8700 4150
+Wire Wire Line
+	9000 4250 8700 4250
+Text Label 5800 3050 0    50   ~ 0
+PB1
+Text Label 5800 3150 0    50   ~ 0
+PB2
+Text Label 5800 3250 0    50   ~ 0
+PB3
+Text Label 5800 3350 0    50   ~ 0
+PB4
+Text Label 5800 3450 0    50   ~ 0
+PB5
+Text Label 5800 3550 0    50   ~ 0
+PB6
+Text Label 5800 3650 0    50   ~ 0
+PB7
+Text Label 5800 3750 0    50   ~ 0
+PB8
+Text Label 5800 3850 0    50   ~ 0
+PB9
+Text Label 5800 3950 0    50   ~ 0
+PB10
+Text Label 5800 4050 0    50   ~ 0
+PB11
+Text Label 5800 4150 0    50   ~ 0
+PB12
+Text Label 5800 4250 0    50   ~ 0
+PB13
+Text Label 5800 4350 0    50   ~ 0
+PB14
+Text Label 5800 4450 0    50   ~ 0
+PB15
+Wire Wire Line
+	5800 3050 6100 3050
+Wire Wire Line
+	5800 3150 6100 3150
+Wire Wire Line
+	5800 3250 6100 3250
+Wire Wire Line
+	5800 3350 6100 3350
+Wire Wire Line
+	5800 3450 6100 3450
+Wire Wire Line
+	5800 3550 6100 3550
+Wire Wire Line
+	5800 3650 6100 3650
+Wire Wire Line
+	5800 3750 6100 3750
+Wire Wire Line
+	5800 3850 6100 3850
+Wire Wire Line
+	5800 3950 6100 3950
+Wire Wire Line
+	5800 4050 6100 4050
+Wire Wire Line
+	5800 4150 6100 4150
+Wire Wire Line
+	5800 4250 6100 4250
+Wire Wire Line
+	5800 4350 6100 4350
+Wire Wire Line
+	5800 4450 6100 4450
+Text Label 9000 4450 2    50   ~ 0
+PC0
+Text Label 9000 4550 2    50   ~ 0
+PC1
+Text Label 9000 4650 2    50   ~ 0
+PC2
+Text Label 9000 4750 2    50   ~ 0
+PC3
+Text Label 9000 4850 2    50   ~ 0
+PC4
+Text Label 9000 4950 2    50   ~ 0
+PC5
+Text Label 9000 5050 2    50   ~ 0
+PC6
+Wire Wire Line
+	9000 4450 8700 4450
+Wire Wire Line
+	9000 4550 8700 4550
+Wire Wire Line
+	9000 4650 8700 4650
+Wire Wire Line
+	9000 4750 8700 4750
+Wire Wire Line
+	9000 4850 8700 4850
+Wire Wire Line
+	9000 4950 8700 4950
+Wire Wire Line
+	9000 5050 8700 5050
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5EC810F5
+P 1300 1500
+F 0 "BT1" H 1418 1596 50  0000 L CNN
+F 1 "Battery_Cell" H 1418 1505 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 1300 1560 50  0001 C CNN
+F 3 "~" V 1300 1560 50  0001 C CNN
+	1    1300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC82AB5
+P 1300 1600
+F 0 "#PWR?" H 1300 1350 50  0001 C CNN
+F 1 "GND" H 1305 1427 50  0000 C CNN
+F 2 "" H 1300 1600 50  0001 C CNN
+F 3 "" H 1300 1600 50  0001 C CNN
+	1    1300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5EC8332B
+P 1300 1300
+F 0 "#PWR?" H 1300 1150 50  0001 C CNN
+F 1 "+BATT" H 1315 1473 50  0000 C CNN
+F 2 "" H 1300 1300 50  0001 C CNN
+F 3 "" H 1300 1300 50  0001 C CNN
+	1    1300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Antenna_Chip AE1
+U 1 1 5EC5B94F
+P 10150 2250
+F 0 "AE1" H 10330 2377 50  0000 L CNN
+F 1 "Antenna_Chip" H 10330 2286 50  0000 L CNN
+F 2 "" H 10050 2425 50  0001 C CNN
+F 3 "~" H 10050 2425 50  0001 C CNN
+	1    10150 2250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

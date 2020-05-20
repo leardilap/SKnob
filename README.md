@@ -11,6 +11,9 @@ The safety knob for your stove
 # LoraWAN-STM32
 - Use the STM32WLE5JBI6 chip 
 
+# Antena
+- Linx Technologies Inc. Manufacturer Part Number 	ANT-868-CHP-T 
+
 # Similar product
 - https://burneralert.com/
 

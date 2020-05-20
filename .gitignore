@@ -1,0 +1,13 @@
+# autosave
+*~
+# export files for BOM
+*.csv
+*.tsv
+*.xml
+# backup files
+*-bak
+# external info files
+info/
+# compressed files
+*.zip
+fp-info-cache
