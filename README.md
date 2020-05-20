@@ -10,3 +10,6 @@
 
 # LoraWAN-STM32
 - use the STM32WLE5JBI6 chip 
+
+# Similar product
+- https://burneralert.com/
