@@ -1,5 +1,5 @@
-# Sknob
-
+# SKnob
+the safety knob for your stove
 
 # Overall shape
 - Two main PCBs with 24x17mm dimmentions joined with flex PCB
@@ -13,3 +13,8 @@
 
 # Similar product
 - https://burneralert.com/
+
+
+# Commercial
+- Sknob, the safety knob for your stove
+- don't be a SKnob, do you mean our safety knobs for our burnner?. this is how I protect my family everyday, no more sleepless nights, waking up at night just to check the stove. With SKnob I feel safe. Be a hero today.
