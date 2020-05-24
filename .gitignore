@@ -9,3 +9,5 @@
 # compressed files
 *.zip
 fp-info-cache
+#info files
+info/
