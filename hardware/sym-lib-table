@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name STM32WLE5JCI6)(type Legacy)(uri ${KIPRJMOD}/symbols/STM32WLE5JCI6.lib)(options "")(descr ""))
+  (lib (name SKnob)(type Legacy)(uri ${KIPRJMOD}/SKnob.lib)(options "")(descr ""))
 )

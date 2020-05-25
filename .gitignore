@@ -6,6 +6,7 @@
 *.xml
 # backup files
 *-bak
+*.bck
 # compressed files
 *.zip
 fp-info-cache
