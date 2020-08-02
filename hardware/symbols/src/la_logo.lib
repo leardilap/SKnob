@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LA_LOGO
+#
+DEF LA_LOGO T 0 40 Y Y 1 F N
+F0 "T" 0 280 50 H V C CNN
+F1 "LA_LOGO" 0 -260 50 H I C CNN
+F2 "KIT_Graphic:LA_LOGO" 20 -330 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -275 59 0 0 0 "Luis Ardila" Normal 0 C C
+P 2 0 1 39 140 -60 160 -40 N
+P 2 0 1 39 280 -80 330 -130 N
+P 9 0 1 39 0 200 -300 -100 -200 -200 -100 -100 0 -200 100 -100 200 -200 300 -100 0 200 N
+ENDDRAW
+ENDDEF
+#
+#End Library

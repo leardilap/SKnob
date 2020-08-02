@@ -1,0 +1,128 @@
+Configuration	SKnob
+STM32CubeMX 	6.0.0
+Date	08/02/2020
+MCU	STM32WB55CCUx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN11 Single-ended	ADC1_IN11	PA6
+ADC1	Vbat Channel	ADC1_Vbat_Input	VP_ADC1_Vbat_Input
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+RCC	Clock-out	RCC_MCO	PA8
+RF	Activate RF1	RF_RF1	RF1
+SYS	JTAG (5 pins)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG (5 pins)	SYS_JTDI	PA15
+SYS	JTAG (5 pins)	SYS_JTDO-SWO	PB3
+SYS	JTAG (5 pins)	SYS_JTMS-SWDIO	PA13
+SYS	JTAG (5 pins)	SYS_JTRST	PB4
+SYS	SYS_WakeUp0	SYS_WKUP1	PA0
+SYS	TIM17	SYS_VS_tim17	VP_SYS_VS_tim17
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSC32_IN	RCC_OSC32_IN	
+3	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PB8	I2C1_SCL	
+6	PB9	I2C1_SDA	
+9	PA0	SYS_WKUP1	
+11	PA2	GPIO_Input	ACC_INT1
+12	PA3	GPIO_Input	ACC_INT2
+15	PA6	ADC1_IN11	ADC1_IN11_VBATT
+17	PA8	RCC_MCO	
+18	PA9	USART1_TX	
+21	RF1	RF_RF1	
+24	OSC_OUT	RCC_OSC_OUT	
+25	OSC_IN	RCC_OSC_IN	
+36	PA10	USART1_RX	
+37	PA11	USB_DM	USB_N
+38	PA12	USB_DP	USB_P
+39	PA13	SYS_JTMS-SWDIO	
+41	PA14	SYS_JTCK-SWCLK	
+42	PA15	SYS_JTDI	
+43	PB3	SYS_JTDO-SWO	
+44	PB4	SYS_JTRST	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC1	IN11 Single-ended	ADC1_IN11	PA6
+ADC1	Vbat Channel	ADC1_Vbat_Input	VP_ADC1_Vbat_Input
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_IN	PC14-OSC32_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC32_OUT	PC15-OSC32_OUT
+RCC	Clock-out	RCC_MCO	PA8
+RF	Activate RF1	RF_RF1	RF1
+SYS	JTAG (5 pins)	SYS_JTCK-SWCLK	PA14
+SYS	JTAG (5 pins)	SYS_JTDI	PA15
+SYS	JTAG (5 pins)	SYS_JTDO-SWO	PB3
+SYS	JTAG (5 pins)	SYS_JTMS-SWDIO	PA13
+SYS	JTAG (5 pins)	SYS_JTRST	PB4
+SYS	SYS_WakeUp0	SYS_WKUP1	PA0
+SYS	TIM17	SYS_VS_tim17	VP_SYS_VS_tim17
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USB	Device (FS)	USB_DM	PA11
+USB	Device (FS)	USB_DP	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC14-OSC32_IN	RCC_OSC32_IN	
+3	PC15-OSC32_OUT	RCC_OSC32_OUT	
+5	PB8	I2C1_SCL	
+6	PB9	I2C1_SDA	
+9	PA0	SYS_WKUP1	
+11	PA2	GPIO_Input	ACC_INT1
+12	PA3	GPIO_Input	ACC_INT2
+15	PA6	ADC1_IN11	ADC1_IN11_VBATT
+17	PA8	RCC_MCO	
+18	PA9	USART1_TX	
+21	RF1	RF_RF1	
+24	OSC_OUT	RCC_OSC_OUT	
+25	OSC_IN	RCC_OSC_IN	
+36	PA10	USART1_RX	
+37	PA11	USB_DM	USB_N
+38	PA12	USB_DP	USB_P
+39	PA13	SYS_JTMS-SWDIO	
+41	PA14	SYS_JTCK-SWCLK	
+42	PA15	SYS_JTDI	
+43	PB3	SYS_JTDO-SWO	
+44	PB4	SYS_JTRST	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : SKnob
+Project Folder : /home/luis/Projects/PCB/kicad/SKnob/firmware/SKnob
+Toolchain / IDE : EWARM V8.32
+Firmware Package Name and Version : STM32Cube FW_WB V1.8.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

@@ -10,7 +10,7 @@ The safety knob for your stove
 
 # Bluetooth-STM32
 - Use the STM32WB55Cx chip 
-- Workhshop: https://www.youtube.com/watch?v=5Lp9cDBzG94&list=PLnMKNibPkDnGRfqUO1Q_-1nW-tOKfDQbc&index=1
+- Workshop: https://www.youtube.com/watch?v=5Lp9cDBzG94&list=PLnMKNibPkDnGRfqUO1Q_-1nW-tOKfDQbc&index=1
 
 # Antena
 - Manufacturer 	PulseLarsen Antennas
