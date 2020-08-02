@@ -1,23 +1,23 @@
 ** Drc report for /home/luis/Projects/PCB/kicad/SKnob/hardware/SKnob.kicad_pcb **
-** Created on 2020-08-02 13:59:01 **
+** Created on 2020-08-02 20:08:52 **
 
 ** Found 4 DRC errors **
 ErrType(19): Pad too close to pad
     @(108.943 mm, 81.920 mm): Pad 3 of FLT1 on F.Cu and others
     @(109.530 mm, 81.920 mm): Pad 2 of FLT1 on F.Cu and others
 ErrType(46): Footprint has no courtyard defined
-    @(150.500 mm, 87.000 mm): Footprint T2 on F.Cu
+    @(150.300 mm, 76.700 mm): Footprint T2 on F.Cu
 ErrType(46): Footprint has no courtyard defined
-    @(105.300 mm, 86.300 mm): Footprint T1 on F.Cu
+    @(121.000 mm, 74.250 mm): Footprint T1 on B.Cu
 ErrType(46): Footprint has no courtyard defined
-    @(140.900 mm, 80.300 mm): Footprint BATT?1 on F.Cu
+    @(140.900 mm, 80.300 mm): Footprint BATT1 on F.Cu
 
 ** Found 2 unconnected pads **
 ErrType(2): Unconnected items
-    @(130.600 mm, 87.000 mm): Via 0.600 mm [GND] on F.Cu - B.Cu
-    @(126.400 mm, 87.000 mm): Via 0.600 mm [GND] on F.Cu - B.Cu
+    @(130.000 mm, 88.250 mm): Via 0.600 mm [GND] on F.Cu - B.Cu
+    @(126.400 mm, 88.400 mm): Via 0.600 mm [GND] on F.Cu - B.Cu
 ErrType(2): Unconnected items
-    @(126.700 mm, 80.039 mm): Zone Outline [+BATT] on In2.Cu
-    @(130.500 mm, 80.000 mm): Via 0.600 mm [+BATT] on F.Cu - B.Cu
+    @(126.700 mm, 72.606 mm): Zone Outline [+BATT] on In2.Cu
+    @(129.649 mm, 72.323 mm): Zone Outline [+BATT] on In2.Cu
 
 ** End of Report **

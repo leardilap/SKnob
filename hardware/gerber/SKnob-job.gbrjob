@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.6-c6e7f7d~87~ubuntu18.04.1"
     },
-    "CreationDate":  "2020-08-02T18:45:10+02:00"
+    "CreationDate":  "2020-08-02T20:24:30+02:00"
   },
   "GeneralSpecs":
   {
@@ -32,7 +32,7 @@
       "PadToPad":  0.100,
       "PadToTrack":  0.100,
       "TrackToTrack":  0.100,
-      "MinLineWidth":  0.118,
+      "MinLineWidth":  0.150,
       "TrackToRegion":  0.100,
       "RegionToRegion":  0.100
     },
@@ -65,6 +65,16 @@
     {
       "Path":  "SKnob-B_Cu.gbr",
       "FileFunction":  "Copper,L4,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-F_Adhes.gbr",
+      "FileFunction":  "Glue,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-B_Adhes.gbr",
+      "FileFunction":  "Glue,Bot",
       "FilePolarity":  "Positive"
     },
     {
