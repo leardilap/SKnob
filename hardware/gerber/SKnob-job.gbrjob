@@ -1,0 +1,164 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "5.1.6-c6e7f7d~87~ubuntu18.04.1"
+    },
+    "CreationDate":  "2020-08-02T18:29:42+02:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "SKnob",
+      "GUID": "534b6e6f-622e-46b6-9963-61645f706362",
+      "Revision": "1.0"
+    },
+    "Size":
+    {
+      "X": 50.100,
+      "Y": 17.100
+    },
+    "LayerNumber": 4,
+    "BoardThickness":  1.200
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.100,
+      "PadToTrack":  0.100,
+      "TrackToTrack":  0.100,
+      "MinLineWidth":  0.118,
+      "TrackToRegion":  0.100,
+      "RegionToRegion":  0.100
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad":  0.100,
+      "PadToTrack":  0.100,
+      "TrackToTrack":  0.100,
+      "TrackToRegion":  0.200,
+      "RegionToRegion":  0.200
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "SKnob-F_Cu.gbr",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-In1_Cu.gbr",
+      "FileFunction":  "Copper,L2,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-In2_Cu.gbr",
+      "FileFunction":  "Copper,L3,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-B_Cu.gbr",
+      "FileFunction":  "Copper,L4,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-F_Paste.gbr",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-B_Paste.gbr",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-F_SilkS.gbr",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-B_SilkS.gbr",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "SKnob-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "SKnob-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "SKnob-Edge_Cuts.gbr",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In1.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L2/L3"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In2.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L3/L4"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
+    }
+  ]
+}
