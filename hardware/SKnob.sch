@@ -79,6 +79,7 @@ F 4 "553-1530-1-ND" H 11550 6350 50  0001 C CNN "digikey#"
 F 5 "W3008" H 11550 6350 50  0001 C CNN "manf#"
 F 6 "PulseLarsen Antennas" H 11550 6350 50  0001 C CNN "manf"
 F 7 "2.4GHz Bluetooth Chip RF Antenna 2.4GHz ~ 2.483GHz 1.7dBi Solder Surface Mount" H 11550 6350 50  0001 C CNN "info"
+F 8 "673-W3008" H 11550 6350 50  0001 C CNN "mouser#"
 	1    11550 6350
 	1    0    0    -1  
 $EndComp
@@ -94,6 +95,7 @@ F 4 "445-172893-1-ND" H 9050 2100 50  0001 C CNN "digikey#"
 F 5 "220 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2.2A 50mOhm" H 9050 2100 50  0001 C CNN "info"
 F 6 "TDK Corporation" H 9050 2100 50  0001 C CNN "manf"
 F 7 "445-172893-1-ND" H 9050 2100 50  0001 C CNN "manf#"
+F 8 "810-MPZ1608S221ATD25" H 9050 2100 50  0001 C CNN "mouser#"
 	1    9050 2100
 	0    -1   -1   0   
 $EndComp
@@ -175,6 +177,7 @@ F 4 "Molex" H 1700 4100 50  0001 C CNN "manf"
 F 5 "1051330001" H 1700 4100 50  0001 C CNN "manf#"
 F 6 "WM9734CT-ND" H 1700 4100 50  0001 C CNN "digikey#"
 F 7 "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount" H 1700 4100 50  0001 C CNN "info"
+F 8 "538-105133-0001" H 1700 4100 50  0001 C CNN "mouser#"
 	1    1700 4100
 	1    0    0    -1  
 $EndComp
@@ -201,6 +204,7 @@ F 4 "497-18489-ND" H 6400 4750 50  0001 C CNN "digikey#"
 F 5 "STMicroelectronics" H 6400 4750 50  0001 C CNN "manf"
 F 6 "STM32WB55CGU6" H 6400 4750 50  0001 C CNN "manf#"
 F 7 "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0 2.405GHz ~ 2.48GHz 48-UFQFN Exposed Pad" H 6400 4750 50  0001 C CNN "info"
+F 8 "511-STM32WB55CGU6" H 6400 4750 50  0001 C CNN "mouser#"
 	1    6400 4750
 	1    0    0    -1  
 $EndComp
@@ -396,6 +400,7 @@ F 4 "445-172893-1-ND" H 9050 2850 50  0001 C CNN "digikey#"
 F 5 "220 Ohms @ 100MHz 1 Power Line Ferrite Bead 0603 (1608 Metric) 2.2A 50mOhm" H 9050 2850 50  0001 C CNN "info"
 F 6 "TDK Corporation" H 9050 2850 50  0001 C CNN "manf"
 F 7 "445-172893-1-ND" H 9050 2850 50  0001 C CNN "manf#"
+F 8 "810-MPZ1608S221ATD25" H 9050 2850 50  0001 C CNN "mouser#"
 	1    9050 2850
 	0    -1   -1   0   
 $EndComp
@@ -477,6 +482,7 @@ F 4 "Taiyo Yuden" V 8750 3900 50  0001 C CNN "manf"
 F 5 "CBMF1608T100K" V 8750 3900 50  0001 C CNN "manf#"
 F 6 "587-1720-1-ND" V 8750 3900 50  0001 C CNN "digikey#"
 F 7 "10µH Unshielded Wirewound Inductor 380mA 468mOhm Max 0603 (1608 Metric)" H 8750 3900 50  0001 C CNN "info"
+F 8 "963-CBMF1608T100K" H 8750 3900 50  0001 C CNN "mouser#"
 	1    8750 3900
 	0    -1   -1   0   
 $EndComp
@@ -768,6 +774,7 @@ F 4 "490-18335-1-ND" H 14450 4550 50  0001 C CNN "digikey#"
 F 5 "Murata Electronics" H 14450 4550 50  0001 C CNN "manf"
 F 6 "XRCGB32M000F1H02R0" H 14450 4550 50  0001 C CNN "manf#"
 F 7 "32MHz ±10ppm Crystal 10pF 60 Ohms 4-SMD, No Lead" H 14450 4550 50  0001 C CNN "info"
+F 8 " 81-XRCGB32M000F1H02R " H 14450 4550 50  0001 C CNN "mouser#"
 	1    14450 4550
 	1    0    0    -1  
 $EndComp
@@ -867,6 +874,7 @@ F 4 "32.768kHz ±10ppm Crystal 9pF 70 kOhms 2-SMD, No Lead" H 14450 6200 50  000
 F 5 "XC2744CT-ND" H 14450 6200 50  0001 C CNN "digikey#"
 F 6 "ECS Inc." H 14450 6200 50  0001 C CNN "manf"
 F 7 "ECS-.327-9-12R-C-TR" H 14450 6200 50  0001 C CNN "manf#"
+F 8 " 520-.327-9-12R-C-T " H 14450 6200 50  0001 C CNN "mouser#"
 	1    14450 6200
 	1    0    0    -1  
 $EndComp
@@ -1066,6 +1074,7 @@ F 4 "952-2280-ND" H 2850 1500 50  0001 C CNN "digikey#"
 F 5 "Connector Header Through Hole 2 position 0.079\" (2.00mm)" H 2850 1500 50  0001 C CNN "info"
 F 6 "Harwin Inc." H 2850 1500 50  0001 C CNN "manf"
 F 7 "M22-2510246" H 2850 1500 50  0001 C CNN "manf#"
+F 8 "855-M22-2510246" H 2850 1500 50  0001 C CNN "mouser#"
 	1    2850 1500
 	1    0    0    -1  
 $EndComp
@@ -1096,6 +1105,7 @@ F 4 "952-2280-ND" H 12100 8450 50  0001 C CNN "digikey#"
 F 5 "Connector Header Through Hole 2 position 0.079\" (2.00mm)" H 12100 8450 50  0001 C CNN "info"
 F 6 "Harwin Inc." H 12100 8450 50  0001 C CNN "manf"
 F 7 "M22-2510246" H 12100 8450 50  0001 C CNN "manf#"
+F 8 "855-M22-2510246" H 12100 8450 50  0001 C CNN "mouser#"
 	1    12100 8450
 	-1   0    0    -1  
 $EndComp
@@ -1361,6 +1371,7 @@ F 4 "LIS2DE12TR" H 2250 9700 50  0001 C CNN "manf#"
 F 5 "STMicroelectronics" H 2250 9700 50  0001 L BNN "manf"
 F 6 "497-15997-1-ND " H 2250 9700 50  0001 C CNN "digikey#"
 F 7 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 0.5Hz ~ 2.69kHz 12-LGA (2x2)" H 2250 9700 50  0001 C CNN "info"
+F 8 "511-LIS2DE12TR " H 2250 9700 50  0001 C CNN "mouser#"
 	1    2250 9700
 	1    0    0    -1  
 $EndComp
@@ -1471,6 +1482,7 @@ F 4 "497-5026-1-ND" H 2200 6350 50  0001 C CNN "digikey#"
 F 5 "STMicroelectronics" H 2200 6350 50  0001 C CNN "manf"
 F 6 "USBLC6-2P6" H 2200 6350 50  0001 C CNN "manf#"
 F 7 "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-666" H 2200 6350 50  0001 C CNN "info"
+F 8 "511-STEVAL-IPE023V1" H 2200 6350 50  0001 C CNN "mouser#"
 	1    2200 6350
 	1    0    0    -1  
 $EndComp
@@ -1919,6 +1931,7 @@ F 4 "497-19088-1-ND" H 10650 6450 50  0001 C CNN "digikey#"
 F 5 "STMicroelectronics" H 10650 6450 50  0001 C CNN "manf"
 F 6 "MLPF-WB55-01E3" H 10650 6450 50  0001 C CNN "manf#"
 F 7 "2.45GHz Center Frequency Low Pass RF Filter (Radio Frequency) 100MHz Bandwidth 1.1dB 6-SMD, No Lead" H 10650 6450 50  0001 C CNN "info"
+F 8 "511-MLPF-WB55-01E3 " H 10650 6450 50  0001 C CNN "mouser#"
 	1    10650 6450
 	1    0    0    -1  
 $EndComp
@@ -2062,6 +2075,7 @@ F 4 "ON Semiconductor" H 10650 10700 50  0001 C CNN "manf"
 F 5 "FDV301N" H 10650 10700 50  0001 C CNN "manf#"
 F 6 "FDV301NCT-ND" H 10650 10700 50  0001 C CNN "digikey#"
 F 7 "N-Channel 25V 220mA (Ta) 350mW (Ta) Surface Mount SOT-23" H 10650 10700 50  0001 C CNN "info"
+F 8 "512-FDV301N " H 10650 10700 50  0001 C CNN "mouser#"
 	1    10650 10700
 	1    0    0    -1  
 $EndComp
