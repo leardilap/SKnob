@@ -1,9 +1,24 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TPD4S012DRYR
-D TVS DIODE 5.5V 6SON
-K 296-24244-1-ND
-F http://www.ti.com/lit/ds/symlink/tpd4s012.pdf
+$CMP BR1225
+D Coin, 12.5mm Lithium Poly-Carbon Monoflouride 3V Battery Non-Rechargeable (Primary)
+F https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000C202.pdf
+$ENDCMP
+#
+$CMP LIS2DE12TR
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/group0/72/cb/80/a7/5e/fe/46/9d/DM00153214/files/DM00153214.pdf/jcr:content/translations/en.DM00153214.pdf
+$ENDCMP
+#
+$CMP MLPF-WB55-01E3
+F https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf
+$ENDCMP
+#
+$CMP STM32WB55Cx
+F https://www.st.com/resource/en/datasheet/stm32wb55rg.pdf
+$ENDCMP
+#
+$CMP W3008
+F https://source.z2data.com/2019/5/5/2/28/32/733/W3008.pdf
 $ENDCMP
 #
 #End Doc Library

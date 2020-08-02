@@ -2,7 +2,7 @@
 The safety knob for your stove
 
 # Overall shape
-- Two main PCBs with 24x17mm dimmentions joined with flex PCB
+- Two main PCBs with 24x17mm dimmentions joined with ~~flex PCB~~ 2 wires
 
 # Battery
 - CR1225 or similar with ~50mA could allow to be mounted in the top of one of the PCBs as the space is round in the middle
