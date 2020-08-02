@@ -1,0 +1,8 @@
+ERC report (Sun 02 Aug 2020 05:56:45 PM CEST, Encoding UTF8 )
+
+***** Sheet /
+ErrType(4): Conflict problem between pins. Severity: warning
+    @(162.56 mm, 135.89 mm): Pin 15 (Bidirectional) of component U1 is connected to 
+    @(318.77 mm, 214.63 mm): pin 1 (Power output) of component #FLG0101 (net 4).
+
+ ** ERC messages: 1  Errors 0  Warnings 1

@@ -21,10 +21,10 @@ F 0 "BT1" H 14918 8841 50  0000 L CNN
 F 1 "BK-885-TR" H 14918 8750 50  0000 L CNN
 F 2 "Battery:BatteryHolder_Keystone_3000_1x12mm" V 14800 8760 50  0001 C CNN
 F 3 "https://www.memoryprotectiondevices.com/datasheets/BK-885-datasheet.pdf" V 14800 8760 50  0001 C CNN
-F 4 "Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" H 14918 8659 50  0001 L CNN "Info"
-F 5 "MPD (Memory Protection Devices)" H 14800 8700 50  0001 C CNN "manf"
-F 6 "BK-885-TR" H 14800 8700 50  0001 C CNN "manf#"
-F 7 "BK-885-CT-ND" H 14800 8700 50  0001 C CNN "digikey#"
+F 4 "MPD (Memory Protection Devices)" H 14800 8700 50  0001 C CNN "manf"
+F 5 "BK-885-TR" H 14800 8700 50  0001 C CNN "manf#"
+F 6 "BK-885-CT-ND" H 14800 8700 50  0001 C CNN "digikey#"
+F 7 "Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab" H 14800 8700 50  0001 C CNN "info"
 	1    14800 8700
 	1    0    0    -1  
 $EndComp
@@ -78,7 +78,7 @@ F 3 "https://source.z2data.com/2019/5/5/2/28/32/733/W3008.pdf" H 11550 6350 50  
 F 4 "553-1530-1-ND" H 11550 6350 50  0001 C CNN "digikey#"
 F 5 "W3008" H 11550 6350 50  0001 C CNN "manf#"
 F 6 "PulseLarsen Antennas" H 11550 6350 50  0001 C CNN "manf"
-F 7 "2.4GHz Bluetooth Chip RF Antenna 2.4GHz ~ 2.483GHz 1.7dBi Solder Surface Mount" H 11550 6350 50  0001 C CNN "Info"
+F 7 "2.4GHz Bluetooth Chip RF Antenna 2.4GHz ~ 2.483GHz 1.7dBi Solder Surface Mount" H 11550 6350 50  0001 C CNN "info"
 	1    11550 6350
 	1    0    0    -1  
 $EndComp
@@ -192,7 +192,7 @@ F 3 "https://www.st.com/resource/en/datasheet/stm32wb55rg.pdf" H 6550 4600 60  0
 F 4 "497-18489-ND" H 6400 4750 50  0001 C CNN "digikey#"
 F 5 "STMicroelectronics" H 6400 4750 50  0001 C CNN "manf"
 F 6 "STM32WB55CGU6" H 6400 4750 50  0001 C CNN "manf#"
-F 7 "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0 2.405GHz ~ 2.48GHz 48-UFQFN Exposed Pad" H 6400 4750 50  0001 C CNN "Info"
+F 7 "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0 2.405GHz ~ 2.48GHz 48-UFQFN Exposed Pad" H 6400 4750 50  0001 C CNN "info"
 	1    6400 4750
 	1    0    0    -1  
 $EndComp
@@ -464,7 +464,7 @@ F 3 "https://www.yuden.co.jp/productdata/catalog/wound02_e.pdf" H 8750 3900 50  
 F 4 "Taiyo Yuden" V 8750 3900 50  0001 C CNN "manf"
 F 5 "CBMF1608T100K" V 8750 3900 50  0001 C CNN "manf#"
 F 6 "587-1720-1-ND" V 8750 3900 50  0001 C CNN "digikey#"
-F 7 "10µH Unshielded Wirewound Inductor 380mA 468mOhm Max 0603 (1608 Metric)" H 8750 3900 50  0001 C CNN "Info"
+F 7 "10µH Unshielded Wirewound Inductor 380mA 468mOhm Max 0603 (1608 Metric)" H 8750 3900 50  0001 C CNN "info"
 	1    8750 3900
 	0    -1   -1   0   
 $EndComp
@@ -615,7 +615,7 @@ L Device:R R1
 U 1 1 5EE2B88D
 P 1600 4800
 F 0 "R1" H 1670 4846 50  0000 L CNN
-F 1 "R" H 1670 4755 50  0000 L CNN
+F 1 "10M" H 1670 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 1530 4800 50  0001 C CNN
 F 3 "~" H 1600 4800 50  0001 C CNN
 	1    1600 4800
@@ -626,7 +626,7 @@ L Device:C C1
 U 1 1 5EE2BC40
 P 1200 4800
 F 0 "C1" H 1315 4846 50  0000 L CNN
-F 1 "C" H 1315 4755 50  0000 L CNN
+F 1 "100nF" H 1315 4755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1238 4650 50  0001 C CNN
 F 3 "~" H 1200 4800 50  0001 C CNN
 	1    1200 4800
@@ -666,20 +666,20 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5EE31E11
-P 1900 4650
-F 0 "#PWR?" H 1900 4400 50  0001 C CNN
-F 1 "GND" H 1905 4477 50  0000 C CNN
-F 2 "" H 1900 4650 50  0001 C CNN
-F 3 "" H 1900 4650 50  0001 C CNN
-	1    1900 4650
+P 2050 4650
+F 0 "#PWR?" H 2050 4400 50  0001 C CNN
+F 1 "GND" H 2055 4477 50  0000 C CNN
+F 2 "" H 2050 4650 50  0001 C CNN
+F 3 "" H 2050 4650 50  0001 C CNN
+	1    2050 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 4600 1700 4600
+	2050 4600 1700 4600
 Wire Wire Line
 	1700 4600 1700 4500
 Wire Wire Line
-	1900 4600 1900 4650
+	2050 4600 2050 4650
 Wire Wire Line
 	2400 4300 2000 4300
 Wire Wire Line
@@ -752,10 +752,10 @@ F 0 "Y1" H 14650 4800 50  0000 L CNN
 F 1 "32MHz" H 14650 4700 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 14450 4550 50  0001 C CNN
 F 3 "https://www.murata.com/products/productdata/8801065041950/SPEC-XRCGB32M000F1H02R0.pdf" H 14450 4550 50  0001 C CNN
-F 4 "32MHz ±10ppm Crystal 10pF 60 Ohms 4-SMD, No Lead" H 14450 4550 50  0001 C CNN "Info"
-F 5 "490-18335-1-ND" H 14450 4550 50  0001 C CNN "digikey#"
-F 6 "Murata Electronics" H 14450 4550 50  0001 C CNN "manf"
-F 7 "XRCGB32M000F1H02R0" H 14450 4550 50  0001 C CNN "manf#"
+F 4 "490-18335-1-ND" H 14450 4550 50  0001 C CNN "digikey#"
+F 5 "Murata Electronics" H 14450 4550 50  0001 C CNN "manf"
+F 6 "XRCGB32M000F1H02R0" H 14450 4550 50  0001 C CNN "manf#"
+F 7 "32MHz ±10ppm Crystal 10pF 60 Ohms 4-SMD, No Lead" H 14450 4550 50  0001 C CNN "info"
 	1    14450 4550
 	1    0    0    -1  
 $EndComp
@@ -851,6 +851,7 @@ F 0 "Y2" H 14650 6450 50  0000 L CNN
 F 1 "32.768kHz" H 14650 6350 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 14450 6200 50  0001 C CNN
 F 3 "~" H 14450 6200 50  0001 C CNN
+F 4 "" H 14450 6200 50  0001 C CNN "info"
 	1    14450 6200
 	1    0    0    -1  
 $EndComp
@@ -976,7 +977,7 @@ F 3 "https://www.mccsemi.com/pdf/Products/1N4148WL2(DFN1006-2L)-A.pdf" H 11250 5
 F 4 "Micro Commercial Co" H 11250 5150 50  0001 C CNN "manf"
 F 5 "1N4148WL2-TP" H 11250 5150 50  0001 C CNN "manf#"
 F 6 "1N4148WL2-TPMSCT-ND" H 11250 5150 50  0001 C CNN "digikey#"
-F 7 "Diode Standard 100V 150mA Surface Mount DFN1006-2" H 11250 5150 50  0001 C CNN "Info"
+F 7 "Diode Standard 100V 150mA Surface Mount DFN1006-2" H 11250 5150 50  0001 C CNN "info"
 	1    11250 5150
 	-1   0    0    1   
 $EndComp
@@ -1032,7 +1033,6 @@ Text Label 5750 5950 0    50   ~ 0
 USB_P
 Text Label 2400 4300 2    50   ~ 0
 ID
-NoConn ~ 9400 6250
 Wire Wire Line
 	3000 3350 3150 3350
 $Comp
@@ -1355,7 +1355,7 @@ F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/group0
 F 4 "LIS2DE12TR" H 2250 9700 50  0001 C CNN "manf#"
 F 5 "STMicroelectronics" H 2250 9700 50  0001 L BNN "manf"
 F 6 "497-15997-1-ND " H 2250 9700 50  0001 C CNN "digikey#"
-F 7 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 0.5Hz ~ 2.69kHz 12-LGA (2x2)" H 2250 9700 50  0001 C CNN "Info"
+F 7 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 0.5Hz ~ 2.69kHz 12-LGA (2x2)" H 2250 9700 50  0001 C CNN "info"
 	1    2250 9700
 	1    0    0    -1  
 $EndComp
@@ -1462,10 +1462,10 @@ F 0 "U3" H 2450 6700 50  0000 C CNN
 F 1 "USBLC6-2P6" H 1800 6700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-666" H 2200 5850 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/datasheet/usblc6-2.pdf" H 2400 6700 50  0001 C CNN
-F 4 "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-666" H 2200 6350 50  0001 C CNN "Info"
-F 5 "497-5026-1-ND" H 2200 6350 50  0001 C CNN "digikey#"
-F 6 "STMicroelectronics" H 2200 6350 50  0001 C CNN "manf"
-F 7 "USBLC6-2P6" H 2200 6350 50  0001 C CNN "manf#"
+F 4 "497-5026-1-ND" H 2200 6350 50  0001 C CNN "digikey#"
+F 5 "STMicroelectronics" H 2200 6350 50  0001 C CNN "manf"
+F 6 "USBLC6-2P6" H 2200 6350 50  0001 C CNN "manf#"
+F 7 "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-666" H 2200 6350 50  0001 C CNN "info"
 	1    2200 6350
 	1    0    0    -1  
 $EndComp
@@ -1913,7 +1913,7 @@ F 3 "https://www.st.com/resource/en/datasheet/mlpf-wb55-01e3.pdf" H 10650 6450 5
 F 4 "497-19088-1-ND" H 10650 6450 50  0001 C CNN "digikey#"
 F 5 "STMicroelectronics" H 10650 6450 50  0001 C CNN "manf"
 F 6 "MLPF-WB55-01E3" H 10650 6450 50  0001 C CNN "manf#"
-F 7 "2.45GHz Center Frequency Low Pass RF Filter (Radio Frequency) 100MHz Bandwidth 1.1dB 6-SMD, No Lead" H 10650 6450 50  0001 C CNN "Info"
+F 7 "2.45GHz Center Frequency Low Pass RF Filter (Radio Frequency) 100MHz Bandwidth 1.1dB 6-SMD, No Lead" H 10650 6450 50  0001 C CNN "info"
 	1    10650 6450
 	1    0    0    -1  
 $EndComp
@@ -1986,7 +1986,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000C202.pdf
 F 4 "Panasonic - BSG" H 15700 8250 50  0001 C CNN "manf"
 F 5 "BR-1225" H 15700 8150 50  0001 C CNN "manf#"
 F 6 "P183-ND" H 15700 8050 50  0001 C CNN "digikey#"
-F 7 "Coin, 12.5mm Lithium Poly-Carbon Monoflouride 3V Battery Non-Rechargeable (Primary)" H 15700 7950 50  0001 C CNN "info"
+F 7 "Coin, 12.5mm Lithium Poly-Carbon Monoflouride 3V Battery Non-Rechargeable (Primary)" H 15700 8700 50  0001 C CNN "info"
 	1    15700 8700
 	1    0    0    -1  
 $EndComp
@@ -2020,4 +2020,72 @@ F 3 "~" H 5950 5050 50  0001 C CNN
 	1    5750 5050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 5F285DB8
+P 10850 10200
+F 0 "BZ1" H 11003 10229 50  0000 L CNN
+F 1 "TE034003-1" H 11003 10138 50  0000 L CNN
+F 2 "SKnob:TE034003-1" V 10825 10300 50  0001 C CNN
+F 3 "https://dbunlimitedco.com/images/product_images/2D-Drawings/TE034003-1.pdf" V 10825 10300 50  0001 C CNN
+F 4 "DB Unlimited" H 10850 10200 50  0001 C CNN "manf"
+F 5 "TE034003-1" H 10850 10200 50  0001 C CNN "manf#"
+F 6 "2104-TE034003-1CT-ND" H 10850 10200 50  0001 C CNN "digikey#"
+	1    10850 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2A26BC
+P 10750 10900
+F 0 "#PWR?" H 10750 10650 50  0001 C CNN
+F 1 "GND" H 10755 10727 50  0000 C CNN
+F 2 "" H 10750 10900 50  0001 C CNN
+F 3 "" H 10750 10900 50  0001 C CNN
+	1    10750 10900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5F2B0049
+P 10650 10700
+F 0 "Q1" H 10855 10746 50  0000 L CNN
+F 1 "FDV301N" H 10855 10655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10850 10800 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/FDV301N.pdf" H 10650 10700 50  0001 C CNN
+F 4 "ON Semiconductor" H 10650 10700 50  0001 C CNN "manf"
+F 5 "FDV301N" H 10650 10700 50  0001 C CNN "manf#"
+F 6 "FDV301NCT-ND" H 10650 10700 50  0001 C CNN "digikey#"
+	1    10650 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 10300 10750 10500
+Wire Wire Line
+	10750 10100 10750 9900
+$Comp
+L power:+BATT #PWR?
+U 1 1 5F2E4EB0
+P 10750 9900
+F 0 "#PWR?" H 10750 9750 50  0001 C CNN
+F 1 "+BATT" H 10765 10073 50  0000 C CNN
+F 2 "" H 10750 9900 50  0001 C CNN
+F 3 "" H 10750 9900 50  0001 C CNN
+	1    10750 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 6250 9900 6250
+Text Label 9900 6250 2    50   ~ 0
+BUZZER
+Wire Wire Line
+	10450 10700 9950 10700
+Text Label 9950 10700 0    50   ~ 0
+BUZZER
+Wire Notes Line
+	11750 9250 9700 9250
+Wire Notes Line
+	9700 9250 9700 11200
+Text Notes 10400 9550 0    118  ~ 24
+BUZZER
 $EndSCHEMATC
